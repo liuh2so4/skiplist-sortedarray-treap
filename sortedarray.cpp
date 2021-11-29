@@ -97,5 +97,19 @@ int main() {
 		cout<<"sortedarray,"<<i<<","<<(double)tinsert/CLOCKS_PER_SEC<<","<<(double)tsearch/CLOCKS_PER_SEC<<endl;
 		num *= 2;
 	}
+	/*
+	int a[] = { 22, 91, 35, 78, 10, 8, 75, 99, 1, 67 };
+	int n = sizeof(a)/ sizeof(a[0]);
+	int i;
+	cout<<"Given array is:"<<endl;
+	for (i = 0; i < n; i++)
+	cout<< a[i] <<" ";
+	cout<<endl;
+	selectionSort(a, n);
+	printf("\nSorted array is: \n");
+	for (i = 0; i < n; i++)
+	cout<< a[i] <<" ";
+	return 0;
+	*/
 	return 0;
 }
