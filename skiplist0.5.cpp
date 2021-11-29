@@ -1,5 +1,6 @@
 /*
    i add a variable additionalcopysum to calculate the additional copy
+   i revise the MAX_LEVEL from 6 to 300
    i did not take any thing away, i just annotate them and add my code in main
    */
 #include <iostream>
