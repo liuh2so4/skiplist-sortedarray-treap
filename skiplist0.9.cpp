@@ -1,4 +1,5 @@
 /*
+   i revise the float P from 0.5 to 0.9
    i add a variable additionalcopysum to calculate the additional copy
    i did not take any thing away, i just annotate them and add my code in main
    */
