@@ -1,15 +1,14 @@
 /*
-   To compile :
-   g++ -Wall skiplist.cppc -o skiplist
-   To run :
-   ./skiplist
+   i revise the float P from 0.5 to 0.1
+   i add a variable additionalcopysum to calculate the additional copy
+   i did not take any thing away, i just annotate them
    */
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
 #include <ctime>
 #include <cstring>
-#define MAX_LEVEL 300
+#define MAX_LEVEL 300;
 const float P = 0.1;
 using namespace std;
 int additionalcopysum = 0;
