@@ -74,7 +74,8 @@ int random_level()
 		srand((unsigned)time(NULL));
 		first = false;
 	}
-	int lvl = (int)(log(frand()) / log(1.-P));
+	float x=1-P;
+	int lvl = (int)(log(frand()) / log(1.-x));
 	return lvl < MAX_LEVEL ? lvl : MAX_LEVEL;
 }
 
